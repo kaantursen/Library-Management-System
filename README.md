@@ -21,7 +21,7 @@ A professional, GUI-based library management application built with **Python**, 
 To make this app work, you need a cloud database:
 1. Create a free account at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
 2. Create a new **Cluster** and a database named `library`.
-3. Create three collections: `books`, `userinfo`, and `borrows` , `admin`.
+3. Create four collections: `books`, `userinfo`, and `borrows` , `admin`.
 4. Go to **Database Access** and create a user with a password.
 5. Go to **Network Access** and "Allow Access from Anywhere" (0.0.0.0/0).
 6. Click **Connect** -> **Drivers** -> Copy your **Connection String**.
