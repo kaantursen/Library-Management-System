@@ -6,6 +6,8 @@ from datetime import datetime, timedelta
 from pymongo import MongoClient
 from dotenv import load_dotenv
 
+load_dotenv()
+
 MONGO_URI = os.getenv("MONGO_URI")
 
 # Database Connection
@@ -249,5 +251,6 @@ tk.Label(root, text="MAIN MENU", font=("Arial", 16, "bold")).pack(pady=20)
 tk.Button(root, text="Create Account", command=create_acc, width=20).pack(pady=5)
 tk.Button(root, text="Login", command=login, width=20).pack(pady=5)
 tk.Button(root, text="Exit", command=root.destroy, width=20).pack(pady=5)
+
 
 root.mainloop()
