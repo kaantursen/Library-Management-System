@@ -1,7 +1,7 @@
 # 📚 Library Management System
 
 A professional, GUI-based library management application built with **Python**, **Flet**, and **MongoDB Atlas**. 
-
+<img width="452" height="656" alt="ss" src="https://github.com/user-attachments/assets/d0d794aa-1c4d-4ee7-93e9-7c414360808b" />
 ---
 
 ## ✨ Key Features
@@ -31,4 +31,4 @@ Create a `.env` file in the root directory and paste your connection string:
 ```env
 MONGO_URI=mongodb+srv://your_username:your_password@cluster.mongodb.net/library
 
-<img width="452" height="656" alt="ss" src="https://github.com/user-attachments/assets/d0d794aa-1c4d-4ee7-93e9-7c414360808b" />
+
