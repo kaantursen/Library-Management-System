@@ -1,6 +1,6 @@
 # 📚 Library Management System
 
-A professional, GUI-based library management application built with **Python**, **Tkinter**, and **MongoDB Atlas**. 
+A professional, GUI-based library management application built with **Python**, **Flet**, and **MongoDB Atlas**. 
 
 ---
 
@@ -25,7 +25,6 @@ To make this app work, you need a cloud database:
 4. Go to **Database Access** and create a user with a password.
 5. Go to **Network Access** and "Allow Access from Anywhere" (0.0.0.0/0).
 6. Click **Connect** -> **Drivers** -> Copy your **Connection String**.
-7. Edit `admin` database and add admin accounts.
 
 ### 3. Environment Configuration
 Create a `.env` file in the root directory and paste your connection string:
